@@ -1,0 +1,60 @@
+/* Your Website Styles */
+img {
+  max-height: 100%;
+  max-width: 100%
+}
+h1 {
+  font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
+  margin: 0;
+  padding: 15px;
+}
+p {
+  font-family: 'Droid Serif', serif;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 700px;
+  overflow: hidden;
+  text-align: center;
+  background: black;
+}
+.gallery .controls {
+  position: static;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+.gallery .controls img {
+  border: 5px solid #000;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .15em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 1s;
+}
+.control-button:hover {
+  transform: scale(1.25);
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}

@@ -1,0 +1,29 @@
+/* Your Website Styles */
+h1{
+	color: #69BE28;
+	font-family: 'Hammersmith One', sans-serif;
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: 10px;
+}
+
+body{
+	/*background: url("../img/bg.png");*/
+	background: #002244;
+	font-family: "Futura Std", "Futura Std Regular", "Open Sans", sans-serif;
+	color: #A5ACAF;
+}
+
+a {
+	color: #A5ACAF;
+}
+
+a:hover{
+	color: #69BE28;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
