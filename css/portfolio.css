@@ -13,6 +13,13 @@ p {
   margin: 0;
   padding: 0 15px 15px 15px;
 }
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+a:hover {
+  color: #1a1a1a;
+}
 /* Gallery Stying */
 .gallery .control-button {
   color: #ccc;

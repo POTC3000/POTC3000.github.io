@@ -18,12 +18,11 @@ p {
 	padding-right: 15px;
 }
 a {
-	color: white;
+	color: #4d4d4d;
 	text-decoration: none;
-	padding-left: 15px;
 }
-a:hover{
-	color: red;
+a:hover {
+	color: #1a1a1a;
 }
 img {
 	height: 300px;
