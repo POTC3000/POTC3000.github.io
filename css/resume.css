@@ -17,21 +17,20 @@ p {
 	padding-right: 15px;
 }
 a {
-	color: #4d4d4d;
+	color: #fff;
 	text-decoration: none;
 }
 a:hover {
 	color: #1a1a1a;
 	text-decoration: none;
-	padding-left: 15px;
 }
 img {
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 300px;
 	padding-left: 30px;
 }
 .links nav {
-	background: rgba(255,0,0,.45);
+	background: #cc0000;
 	position: fixed;
 	top: 0;
 	width: 100%;
